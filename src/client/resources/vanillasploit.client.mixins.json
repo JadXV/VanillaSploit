@@ -1,0 +1,20 @@
+{
+	"required": true,
+	"package": "com.jadxv.vanillasploit.mixin.client",
+	"compatibilityLevel": "JAVA_21",
+	"client": [
+	"VanillaSploitClientMixin",
+	"PlayerSpeedMixin",
+	"ClientFlyMixin",
+	"KillAuraMixin",
+	"SplashTextMixin",
+	"TitleScreenMixin",
+	"CriticalsMixin",
+	"NoFallMixin",
+	"ScaffoldMixin",
+	"SessionAccessor"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

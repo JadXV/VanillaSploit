@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "vanillasploit",
+	"version": "${version}",
+	"name": "VanillaSploit",
+	"description": "VanillaSploit is a client-side Fabric utility mod with movement, combat, and quality-of-life modules plus a customizable click GUI.",
+	"authors": [
+		"JadXV"
+	],
+	"contact": {
+		"homepage": "https://github.com/JadXV/VanillaSploit",
+		"sources": "https://github.com/JadXV/VanillaSploit"
+	},
+	"license": "MIT",
+	"icon": "assets/vanillasploit/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.jadxv.vanillasploit.VanillaSploitMod"
+		],
+		"client": [
+			"com.jadxv.vanillasploit.VanillaSploitClient"
+		]
+	},
+	"mixins": [
+		"vanillasploit.mixins.json",
+		{
+			"config": "vanillasploit.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.17.2",
+		"minecraft": "~1.21.10",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
