@@ -5,8 +5,8 @@
 </p>
 
 <p align="center">
-	VanillaSploit is a Minecraft hacked client with several built-in modules for movement, combat, player utility, and visuals.<br>
-	It is built as a skeleton base client that anyone can add onto with their own modules and features.
+	VanillaSploit is a Minecraft hacked client with an account manager and several built-in modules for movement, combat, player utility, and visuals.<br>
+	It's built as a skeleton base client that anyone can add onto with their own modules and features.
 </p>
 
 ## ClickGUI (Modules)
